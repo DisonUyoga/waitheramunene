@@ -3,12 +3,12 @@ languageCode: en-us
 build:
   writeStats: true
 params:
-  title: aafu theme
-  author: Darshan Baral
+  title: Waithera Munene
+  author: Waithira Munene
   description: Website title
   copyright: >-
     powered by [hugo](https://gohugo.io/) & deployed on
-    [Cloudflare](https://www.cloudflare.com/)
+    netlify
   theme:
     mainTheme: dark
     showAttribute: true
@@ -24,33 +24,21 @@ params:
               <link rel="shortcut icon" href="favicon.ico">
 
   profile:
-    name: "First Last, Abbr."
-    tagline: Title
-    location: "City Name, ST"
+    name: "Waihira Munene."
+    tagline: Biology/Chemistry Tutor
+    location: "Donholm, Nairobi"
     photo: profile.jpg
   social:
     title: Links
     list:
-      - icon: fab fa-linkedin-in
-        url: "#"
-        title: LinkedIn
-      - icon: fab fa-stack-overflow
-        url: "#"
-        title: StackOverflow
-      - icon: fab fa-github
-        url: "#"
-        title: GitHub
-      - icon: fab fa-twitter
-        url: "#"
+      - icon: fab fa-instagram
+        url: "https://www.instagram.com/munenewaithera233/?igsh=YzljYTk1ODg3Zg%3D%3D"
         title: Twitter
-      - icon: fab fa-orcid
-        url: "#"
+      - icon: fab fa-whatsapp
+        url: "https://wa.me/+254798057948"
         title: Orcid
-      - icon: ai ai-google-scholar
-        url: "#"
-        title: Google Scholar
-      - icon: fab fa-researchgate
-        url: "#"
+      - icon: fab fa-facebook
+        url: "https://www.facebook.com/profile.php?id=100075508926263"
         title: ResearchGate
   showInAccordion:
     - item: aboutme
@@ -64,107 +52,50 @@ params:
   aboutme:
     title: About Me
     icon: fas fa-user
-    description: This is a demo of the `aafu` theme. It has `light` and `dark` theme.
+    description: Am a passionate biology/chemistry teacher currently teaching at Buruburu girls. I offer both online and in-house tutoring services. My rate is Ksh. 1000/h.
   experience:
     title: Experiences
     icon: fas fa-briefcase
     list:
-      - position: Job Title
-        dates: 2019 - *Present*
-        company: Company Name
-        details: |1-
-          - Printed from desktop. Sent [emails](#).
-              - Called people *using* telephone.
-          - Drank water from office cooler.
-          - Ate donuts on people's birthdays.
-      - position: Job Title
-        dates: 2018 - 2019
+      - position: Biology/Chemistry
+        dates: 2020 - 2023
+        company: Nyahururu Boys
+
+      - position: Biology/Chemistry
+        dates: 2024 - **present**
         url: "#"
-        company: Company Name
+        company: Buruburu Girls
   education:
     title: Education
     icon: fas fa-graduation-cap
     list:
-      - degree: Ph.D. in Subject
-        college: University of State-City
-        dates: 2013 - 2018
-        thesis_title: "Effect of humans on other humans: a study of human behavior."
+      - degree: Bed. Science
+        college: Chuka University
+        dates: 2015 - 2019
+        thesis_title: "Aloe species."
         thesis_url: "#"
-      - degree: M.S. in Subject
-        college: University of State-City
-        dates: 2013 - 2018
-        thesis_title: "Effect of humans on other humans: a study of human behavior."
+      - degree: High School Level
+        college: Mutira High School
+        dates: 2011 - 2014
+        thesis_title: ""
         thesis_url: "#"
-      - degree: B.S. in Subject
-        college: University of State-City
-        dates: 2004 - 2009
-  publication:
-    title: Publications
-    icon: fas fa-book
-    format:
-      - date
-      - title
-      - authors
-      - journal
-    types:
-      - Journal Articles
-      - Proceedings
-    list:
-      - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
-        url: "#"
-        type: Journal Articles
-      - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
-        url: "#"
-        type: Journal Articles
-      - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
-        url: "#"
-        type: Proceedings
-  project:
-    title: Projects
-    icon: fas fa-project-diagram
-    list:
-      - title: Project 1
-        url: "#"
-        description: Description of the project
-      - title: Project 2
-        url: "#"
-        description: Description of the project
-      - title: Project 3
-        url: "#"
-        description: Description of the project
-      - title: Project 4
-        url: "#"
-        description: Description of the project
+      - degree: Basic Computer Studies
+        college: BRIMA Computers
+        dates: 2014 - 2015
+
   skill:
     title: Skills
     panelId: skill-panel
     icon: fas fa-cogs
     list:
-      - skill: "Skill 1, Skill 2"
+      - skill: "HandBall Trainer"
         skillrating: 90
-      - skill: Skill 3
-        skillrating: 80
-      - skill: Skill 4
-        skillrating: 50
+
   hobby:
     title: Hobbies
     icon: fas fa-gamepad
     list:
       - hobby: Cooking
-      - hobby: Hiking
-      - hobby: Baking
+      - hobby: Playing Handball
+      - hobby: Swimming
+      - hobby: Reading Novels
