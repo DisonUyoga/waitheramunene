@@ -8,7 +8,7 @@ params:
   description: Website title
   copyright: >-
     powered by [hugo](https://gohugo.io/) & deployed on
-    vercel
+    Cloudflare
   theme:
     mainTheme: dark
     showAttribute: true
