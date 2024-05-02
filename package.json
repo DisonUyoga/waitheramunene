@@ -7,6 +7,14 @@
     "hugo",
     "portfolio"
   ],
+  "scripts": {
+    "dev": "hugo server --gc --disableFastRender",
+    "dev:drafts": "hugo server --gc --disableFastRender --buildFuture --buildDrafts",
+    "build": "hugo --gc --cleanDestinationDir --minify",
+    "start": "hugo server --gc --disableFastRender --renderStaticToDisk --cleanDestinationDir",
+    "start:production": "hugo server --gc --disableFastRender --renderStaticToDisk --cleanDestinationDir --environment production --minify",
+    "npm-check": "npm-check -u"
+  },
   "author": "Darshan Baral",
   "license": "MIT",
   "devDependencies": {
@@ -18,5 +26,11 @@
     "postcss-cli": "^10.1.0",
     "postcss-import": "^15.1.0",
     "tailwindcss": "^3.3.5"
+  },
+  "dependencies": {
+    "exec": "^0.2.1",
+    "exec-bin": "^1.0.0",
+    "hugo-installer": "^4.0.1",
+    "npm-check": "^6.0.1"
   }
 }

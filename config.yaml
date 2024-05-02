@@ -3,12 +3,12 @@ languageCode: en-us
 build:
   writeStats: true
 params:
-  title: Waithera Munene
+  title: Waithira Munene
   author: Waithira Munene
   description: Website title
   copyright: >-
     powered by [hugo](https://gohugo.io/) & deployed on
-    netlify
+    vercel
   theme:
     mainTheme: dark
     showAttribute: true
@@ -24,7 +24,7 @@ params:
               <link rel="shortcut icon" href="favicon.ico">
 
   profile:
-    name: "Waihira Munene."
+    name: "Waithira Munene."
     tagline: Biology/Chemistry Tutor
     location: "Donholm, Nairobi"
     photo: profile.jpg
@@ -45,8 +45,6 @@ params:
       expand: true
     - item: experience
     - item: education
-    - item: publication
-    - item: project
     - item: skill
     - item: hobby
   aboutme:
