@@ -1,4 +1,4 @@
 ---
-title: "Notes and Tips in Bilogy and Agriculture"
+title: "Notes and Tips in Bilogy and Chemistry"
 weight: 100
 ---
