@@ -1,4 +1,4 @@
 ---
-title: "Notes and Tips in Bilogy and Chemistry"
+title: "Notes and Tips in Biology and Chemistry"
 weight: 100
 ---
